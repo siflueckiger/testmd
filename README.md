@@ -25,6 +25,7 @@ Damit die Schnittstelle «XLSX: AKJB» verwendet werden kann, sind folgende Konf
 - Rechnungskonfigurationen bei Klient:innen-Dossiers hinterlegen
 
 **Hinweis – Individuelle Konfiguration**
+
 Die jeweilige Konfiguration muss mit der Institution abgesprochen werden. Informationen wie Namen der Leistungs-Gruppen, Leistungsarten, Tarif (Gruppe) und Preise müssen von der Institution definiert werden.
 
 ### Leistungs-Gruppen
@@ -45,6 +46,7 @@ Pfad: `Einstellungen > Kassabuch & Leistungen > Leistungsarten`
 Nachfolgend eine Übersicht über die Leistungsarten, welche in socialweb konfiguriert werden müssen.
 
 **Hinweis – Verknüpfung mit Zeiterfassung**
+
 Ist das Modul Zeiterfassung lizenziert, können Leistungsarten mit den passenden Arbeitsarten verknüpft werden. So werden Leistungen über die Zeiterfassung der Fachmitarbeitenden automatisch erstellt. Im Modul Leistungen müssen nur noch jene Leistungen erfasst werden, die nicht über die Zeiterfassung erfasst werden können.
 
 | Leistungsart | Leistungs-Gruppe | Hinweis zur Erfassung |
@@ -63,6 +65,7 @@ Pfad: `Einstellungen > Rechnungen > Allgemeine Tarife`
 Nachfolgend eine Übersicht über die Tarife (Gruppen), welche in socialweb konfiguriert werden müssen. Die Namen der Tarif (Gruppen) dienen als Beispiel und müssen mit der Institution definiert werden.
 
 **Hinweis – Unterschiedliche Tarife für unterschiedliche Kantone**
+
 Da die Tarife für Facharbeit je Kanton unterschiedlich festgelegt werden, empfiehlt es sich, pro Kanton eine Tarifgruppe zu erstellen. Auch für die Reisekostenpauschalen empfiehlt es sich, eigene Tarifgruppen pro Pauschale zu verwenden. Werden für Kantone und Reisekostenpauschalen separate Tarifgruppen eingesetzt, können diese in der Rechnungskonfiguration pro Klient:innen-Dossier einfach ausgewählt werden.
 
 | Name | Bemerkung |
