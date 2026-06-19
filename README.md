@@ -10,11 +10,9 @@ Die Schnittstelle «XLSX: AKJB» wird verwendet, um gegenüber dem Amt für Kind
 - Reisekostenpauschale
 - Zusatzleistung / Zusatzleistung 2
 
----
-
 ## Konfiguration
 
-> **Hinweis:** Die Konfiguration muss individuell mit der Institution abgesprochen werden (Namen, Tarife, Preise).
+**Hinweis:** Die Konfiguration muss individuell mit der Institution abgesprochen werden (Namen, Tarife, Preise).
 
 ### 1. Leistungs-Gruppen erstellen
 Pfad: `Einstellungen > Kassabuch & Leistungen > Leistungs-Gruppen`
@@ -29,7 +27,7 @@ Es werden zwei Gruppen benötigt:
 ### 2. Leistungsarten erstellen
 Pfad: `Einstellungen > Kassabuch & Leistungen > Leistungsarten`
 
-> **Tipp:** Leistungsarten können mit Arbeitsarten der Zeiterfassung verknüpft werden, damit Leistungen automatisch erstellt werden.
+**Tipp:** Leistungsarten können mit Arbeitsarten der Zeiterfassung verknüpft werden, damit Leistungen automatisch erstellt werden.
 
 | Leistungsart | Gruppe | Erfassung |
 |---|---|---|
@@ -43,7 +41,7 @@ Pfad: `Einstellungen > Kassabuch & Leistungen > Leistungsarten`
 ### 3. Allgemeine Tarife erstellen
 Pfad: `Einstellungen > Rechnungen > Allgemeine Tarife`
 
-> **Empfehlung:** Pro Kanton eine eigene Tarifgruppe erstellen; ebenso separate Gruppen für Reisekostenpauschalen.
+**Empfehlung:** Pro Kanton eine eigene Tarifgruppe erstellen; ebenso separate Gruppen für Reisekostenpauschalen.
 
 Beispiel Tarifgruppen:
 
@@ -93,9 +91,7 @@ Pfad: `Rechnungen > Konfiguration > [Dossier] > [Rechnungskonfiguration] > Lasch
 
 Unter **Kostengutsprache** die Option **«Referenznummer übernehmen»** aktivieren.
 
-> **Achtung:** Fehlt beim Vorbereiten einer Rechnung eine Kostengutsprache oder werden mehrere gültige gefunden, wird ein Fehler ausgegeben und die Rechnung nicht erstellt.
-
----
+**Achtung:** Fehlt beim Vorbereiten einer Rechnung eine Kostengutsprache oder werden mehrere gültige gefunden, wird ein Fehler ausgegeben und die Rechnung nicht erstellt.
 
 ## Test zur Inbetriebnahme
 
