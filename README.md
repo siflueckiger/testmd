@@ -1,4 +1,4 @@
-## H2 - Einleitung
+## Einleitung
 
 Die Schnittstelle «XLSX: AKJB» wird verwendet, um gegenüber dem Amt für Kind, Jugend und Behindertenangebote (AKJB) in Basel erbrachte SPF-Leistungen in Rechnung zu stellen. Dabei werden die Leistungen für die vorgegebenen Leistungstypen detailliert in einer Excel-Datei ausgewiesen:
 
@@ -10,9 +10,9 @@ Die Schnittstelle «XLSX: AKJB» wird verwendet, um gegenüber dem Amt für Kind
 - Zusatzleistung
 - Zusatzleistung 2
 
-## H2 - Konfiguration und Inbetriebnahme
+## Konfiguration und Inbetriebnahme
 
-### H3 - Konfiguration
+### Konfiguration
 
 Damit die Schnittstelle «XLSX: AKJB» verwendet werden kann, sind folgende Konfigurationen vorzunehmen:
 
@@ -28,7 +28,7 @@ Damit die Schnittstelle «XLSX: AKJB» verwendet werden kann, sind folgende Konf
 
 Die jeweilige Konfiguration muss mit der Institution abgesprochen werden. Informationen wie Namen der Leistungs-Gruppen, Leistungsarten, Tarif (Gruppe) und Preise müssen von der Institution definiert werden.
 
-#### H4 - Leistungs-Gruppen
+#### Leistungs-Gruppen
 
 Pfad: *Einstellungen > Kassabuch & Leistungen > Leistungs-Gruppen*
 
@@ -39,7 +39,7 @@ Es werden zwei Leistungs-Gruppen benötigt. Eine für tarifbasierte Leistungen u
 | SPF | Tarifbasierte Kosten | Stunden: Anzahl Stunden – werden direkt nach der Leistungserfassung abgezogen. Betrag: Geldbetrag – wird erst nach Fakturierung der Leistungen abgezogen. | Für alle Leistungsarten, welche nach einem fixen Tarif verrechnet werden. |
 | zusätzliche Kosten | Individuelle Einzelpreise | Je nach Art der Kostengutsprache. In der Regel «Betrag». | Für alle Leistungsarten, welche zu individuellen Preisen verrechnet werden. |
 
-#### H4 - Leistungsarten
+#### Leistungsarten
 
 Pfad: *Einstellungen > Kassabuch & Leistungen > Leistungsarten*
 
@@ -58,7 +58,7 @@ Ist das Modul Zeiterfassung lizenziert, können Leistungsarten mit den passenden
 | Reisekostenpauschale | SPF | Wird als Leistung mit der Anzahl 1 erfasst |
 | Zusätzliche Kosten | zusätzliche Kosten | Wird als einzelnes Objekt mit der entsprechenden Anzahl und dem Einzelpreis erfasst |
 
-#### H4 - Tarif (Gruppe)
+#### Tarif (Gruppe)
 
 Pfad: *Einstellungen > Rechnungen > Allgemeine Tarife*
 
@@ -76,7 +76,7 @@ Da die Tarife für Facharbeit je Kanton unterschiedlich festgelegt werden, empfi
 | Reisekostenpauschale CHF 120 | – |
 | … | |
 
-##### H5 - Tarifkonfigurationen innerhalb der Tarife (Gruppe)
+##### Tarifkonfigurationen innerhalb der Tarife (Gruppe)
 
 Pfad: *Einstellungen > Rechnungen > Allgemeine Tarife > [innerhalb der jeweiligen Gruppe] > Tarif*
 
@@ -92,13 +92,13 @@ Nachfolgend eine Übersicht über die Tarifkonfigurationen innerhalb der Tarife 
 | Reisekostenpauschale CHF 120 | Reisekostenpauschale | Alle Leistungen zum Einzelpreis | Preis, zu welchem diese Leistung verrechnet werden soll |
 | … | | | |
 
-#### H4 - Kostengutsprachen pro Klient:innen-Dossier
+#### Kostengutsprachen pro Klient:innen-Dossier
 
 Pfad: *Leistungen > Kostengutsprache > [Gewünschtes Dossier]*
 
 Damit in der AKJB-Excel in den Spalten «Beginn der KÜG» und «Ende der KÜG» ein Datum erscheint, muss pro Klient:in und KÜG eine entsprechende Kostengutsprache in socialweb erfasst sein.
 
-#### H4 - Rechnungskonfiguration
+#### Rechnungskonfiguration
 
 Pfad: *Rechnungen > Konfiguration > [Gewünschtes Dossier] > [Gewünschte Rechnungskonfiguration] > Registerkarte Optionen*
 
@@ -108,7 +108,7 @@ Dies geschieht in der Lasche «Optionen» über den Punkt «Kostengutsprache», 
 
 Fehlt bereits beim Vorbereiten einer Rechnung eine Kostengutsprache oder werden mehrere gültige Kostengutsprachen gefunden, so wird ein Fehler ausgegeben und die Rechnung wird nicht erstellt.
 
-### H3 - Schnittstelle aktivieren
+### Schnittstelle aktivieren
 
 Pfad: *Einstellungen > Globale Einstellungen > Schnittstellen > Abschnitt Leistungen*
 
@@ -130,16 +130,16 @@ Nachfolgend eine Übersicht über die Felder, welche konfiguriert werden können
 | Zusatzleistung | Pflichtfeld | Eine oder mehrere Leistungsarten, welche im Excel-Export in der Spalte «Zusatzleistung» ausgegeben werden. |
 | Zusatzleistung 2 | Optional | Eine oder mehrere Leistungsarten, welche im Excel-Export in der Spalte «Zusatzleistung2» ausgegeben werden. |
 
-## H2 - Test zur Inbetriebnahme
+## Test zur Inbetriebnahme
 
-### H3 - Bevor du beginnst
+### Bevor du beginnst
 
 Bevor du mit dem Test beginnst, solltest du:
 
 - Arbeitsarten, Leistungsgruppen & Leistungsarten, Tarifgruppen, Rechnungskonfigurationen eingerichtet haben
 - Die Schnittstelle aktiviert und entsprechend mit den Leistungsarten etc. konfiguriert haben
 
-### H3 - Testfall «Neue Rechnung»
+### Testfall «Neue Rechnung»
 
 1. Erfasse eine Kostengutsprache in einem Klient:innen-Dossier
 2. Erfasse Leistungen passend zur Kostengutsprache aus dem vorherigen Schritt
