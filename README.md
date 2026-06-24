@@ -30,7 +30,7 @@ Die jeweilige Konfiguration muss mit der Institution abgesprochen werden. Inform
 
 #### H4 - Leistungs-Gruppen
 
-Pfad: `Einstellungen > Kassabuch & Leistungen > Leistungs-Gruppen`
+Pfad: *Einstellungen > Kassabuch & Leistungen > Leistungs-Gruppen*
 
 Es werden zwei Leistungs-Gruppen benötigt. Eine für tarifbasierte Leistungen und eine für Leistungen zum individuellen Einzelpreis. Der Name der Leistungsgruppen kann individuell gewählt werden.
 
@@ -41,7 +41,7 @@ Es werden zwei Leistungs-Gruppen benötigt. Eine für tarifbasierte Leistungen u
 
 #### H4 - Leistungsarten
 
-Pfad: `Einstellungen > Kassabuch & Leistungen > Leistungsarten`
+Pfad: *Einstellungen > Kassabuch & Leistungen > Leistungsarten*
 
 Nachfolgend eine Übersicht über die Leistungsarten, welche in socialweb konfiguriert werden müssen.
 
@@ -60,7 +60,7 @@ Ist das Modul Zeiterfassung lizenziert, können Leistungsarten mit den passenden
 
 #### H4 - Tarif (Gruppe)
 
-Pfad: `Einstellungen > Rechnungen > Allgemeine Tarife`
+Pfad: *Einstellungen > Rechnungen > Allgemeine Tarife*
 
 Nachfolgend eine Übersicht über die Tarife (Gruppen), welche in socialweb konfiguriert werden müssen. Die Namen der Tarif (Gruppen) dienen als Beispiel und müssen mit der Institution definiert werden.
 
@@ -78,7 +78,7 @@ Da die Tarife für Facharbeit je Kanton unterschiedlich festgelegt werden, empfi
 
 ##### H5 - Tarifkonfigurationen innerhalb der Tarife (Gruppe)
 
-Pfad: `Einstellungen > Rechnungen > Allgemeine Tarife > [innerhalb der jeweiligen Gruppe] > Tarif`
+Pfad: *Einstellungen > Rechnungen > Allgemeine Tarife > [innerhalb der jeweiligen Gruppe] > Tarif*
 
 Nachfolgend eine Übersicht über die Tarifkonfigurationen innerhalb der Tarife (Gruppen), welche in socialweb konfiguriert werden müssen.
 
@@ -94,13 +94,13 @@ Nachfolgend eine Übersicht über die Tarifkonfigurationen innerhalb der Tarife 
 
 #### H4 - Kostengutsprachen pro Klient:innen-Dossier
 
-Pfad: `Leistungen > Kostengutsprache > [Gewünschtes Dossier]`
+Pfad: *Leistungen > Kostengutsprache > [Gewünschtes Dossier]*
 
 Damit in der AKJB-Excel in den Spalten «Beginn der KÜG» und «Ende der KÜG» ein Datum erscheint, muss pro Klient:in und KÜG eine entsprechende Kostengutsprache in socialweb erfasst sein.
 
 #### H4 - Rechnungskonfiguration
 
-Pfad: `Rechnungen > Konfiguration > [Gewünschtes Dossier] > [Gewünschte Rechnungskonfiguration] > Registerkarte Optionen`
+Pfad: *Rechnungen > Konfiguration > [Gewünschtes Dossier] > [Gewünschte Rechnungskonfiguration] > Registerkarte Optionen*
 
 Damit das Beginn- und Enddatum der jeweiligen Kostengutsprache verwendet wird, muss in der jeweiligen Rechnungskonfiguration konfiguriert werden, dass die Referenznummer der Kostengutsprache auf die Rechnung übernommen wird, welche zu den Leistungen gehört, welche durch die Rechnungskonfiguration verarbeitet werden sollen.
 
@@ -110,7 +110,7 @@ Fehlt bereits beim Vorbereiten einer Rechnung eine Kostengutsprache oder werden 
 
 ### H3 - Schnittstelle aktivieren
 
-Pfad: `Einstellungen > Globale Einstellungen > Schnittstellen > Abschnitt Leistungen`
+Pfad: *Einstellungen > Globale Einstellungen > Schnittstellen > Abschnitt Leistungen*
 
 Wähle im Feld Export die Schnittstelle «XLSX: AKJB».
 
