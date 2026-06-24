@@ -28,7 +28,7 @@ Damit die Schnittstelle «XLSX: AKJB» verwendet werden kann, sind folgende Konf
 
 Die jeweilige Konfiguration muss mit der Institution abgesprochen werden. Informationen wie Namen der Leistungs-Gruppen, Leistungsarten, Tarif (Gruppe) und Preise müssen von der Institution definiert werden.
 
-### H3 - Leistungs-Gruppen
+#### H4 - Leistungs-Gruppen
 
 Pfad: `Einstellungen > Kassabuch & Leistungen > Leistungs-Gruppen`
 
@@ -39,7 +39,7 @@ Es werden zwei Leistungs-Gruppen benötigt. Eine für tarifbasierte Leistungen u
 | SPF | Tarifbasierte Kosten | Stunden: Anzahl Stunden – werden direkt nach der Leistungserfassung abgezogen. Betrag: Geldbetrag – wird erst nach Fakturierung der Leistungen abgezogen. | Für alle Leistungsarten, welche nach einem fixen Tarif verrechnet werden. |
 | zusätzliche Kosten | Individuelle Einzelpreise | Je nach Art der Kostengutsprache. In der Regel «Betrag». | Für alle Leistungsarten, welche zu individuellen Preisen verrechnet werden. |
 
-### H3 - Leistungsarten
+#### H4 - Leistungsarten
 
 Pfad: `Einstellungen > Kassabuch & Leistungen > Leistungsarten`
 
@@ -58,7 +58,7 @@ Ist das Modul Zeiterfassung lizenziert, können Leistungsarten mit den passenden
 | Reisekostenpauschale | SPF | Wird als Leistung mit der Anzahl 1 erfasst |
 | Zusätzliche Kosten | zusätzliche Kosten | Wird als einzelnes Objekt mit der entsprechenden Anzahl und dem Einzelpreis erfasst |
 
-### H3 - Tarif (Gruppe)
+#### H4 - Tarif (Gruppe)
 
 Pfad: `Einstellungen > Rechnungen > Allgemeine Tarife`
 
@@ -76,7 +76,7 @@ Da die Tarife für Facharbeit je Kanton unterschiedlich festgelegt werden, empfi
 | Reisekostenpauschale CHF 120 | – |
 | … | |
 
-#### H4 - Tarifkonfigurationen innerhalb der Tarife (Gruppe)
+##### H5 - Tarifkonfigurationen innerhalb der Tarife (Gruppe)
 
 Pfad: `Einstellungen > Rechnungen > Allgemeine Tarife > [innerhalb der jeweiligen Gruppe] > Tarif`
 
@@ -92,13 +92,13 @@ Nachfolgend eine Übersicht über die Tarifkonfigurationen innerhalb der Tarife 
 | Reisekostenpauschale CHF 120 | Reisekostenpauschale | Alle Leistungen zum Einzelpreis | Preis, zu welchem diese Leistung verrechnet werden soll |
 | … | | | |
 
-### H3 - Kostengutsprachen pro Klient:innen-Dossier
+#### H4 - Kostengutsprachen pro Klient:innen-Dossier
 
 Pfad: `Leistungen > Kostengutsprache > [Gewünschtes Dossier]`
 
 Damit in der AKJB-Excel in den Spalten «Beginn der KÜG» und «Ende der KÜG» ein Datum erscheint, muss pro Klient:in und KÜG eine entsprechende Kostengutsprache in socialweb erfasst sein.
 
-### H3 - Rechnungskonfiguration
+#### H4 - Rechnungskonfiguration
 
 Pfad: `Rechnungen > Konfiguration > [Gewünschtes Dossier] > [Gewünschte Rechnungskonfiguration] > Registerkarte Optionen`
 
